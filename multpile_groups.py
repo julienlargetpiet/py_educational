@@ -1,8 +1,7 @@
 from collections import deque
 
 cur_lst= deque(["Marc", "Sylvie", "Julien", "Christine", "Axel"])
-cur_lst2 = deque([])
-for i in cur_lst: cur_lst2.append(i)
+cur_lst2 = cur_lst.copy()
 Pre_len = len(cur_lst)
 rtn_lst = []
 group_size = 3
