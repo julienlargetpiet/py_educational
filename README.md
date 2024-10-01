@@ -10,3 +10,5 @@ Associated file:
 
 Output all the possible pairs to do with all elements in a list.
 
+Modify the input list at the first line of the file.
+
